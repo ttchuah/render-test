@@ -14,7 +14,7 @@
         "outputPath": "dist/apps/render-test",
         "main": "apps/render-test/src/main.tsx",
         "tsConfig": "apps/render-test/tsconfig.app.json",
-        "rspackConfig": "apps/render-test/rspack.config.js",
+        "rspackConfig": "apps/render-test/rspack.config.ts",
         "assets": [
           "apps/render-test/src/favicon.ico",
           "apps/render-test/src/assets"
