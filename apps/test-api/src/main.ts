@@ -5,8 +5,11 @@
 
 import express from 'express';
 import * as path from 'path';
+import {router} from "./routes";
 
 const app = express();
+
+app.use(router);
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
