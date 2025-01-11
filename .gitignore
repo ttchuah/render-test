@@ -3,6 +3,9 @@
 # configs
 .env
 
+# backups
+backup*
+
 # compiled output
 dist
 tmp
